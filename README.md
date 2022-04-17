@@ -1,1 +1,1 @@
-# Machine-Learning-and-Deep-Learning-Notes
+# Machine Learning and Deep Learning Notes
