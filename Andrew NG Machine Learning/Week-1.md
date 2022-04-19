@@ -25,4 +25,12 @@ Generally learning can be divided into different categories depending on the typ
 Supervised Learning is done using data for which we can assume there is a relationship between input and output. Supervised Learning problems can be categorized as either "Regression" or "Classification" problem based on the type of data.  
 
 
+Regression: If the prediction output is a continuous value for example price of house in the house price problem, it is a Regression Problem.
+
+Classification: If the prediction output is a discrete value, for example in spam prediction, spam or not spam, it is a Classification Problem.
+
+
+
+
+
 
