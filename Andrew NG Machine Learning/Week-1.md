@@ -33,4 +33,9 @@ Classification: If the prediction output is a discrete value, for example in spa
 
 
 
+**Cost Function**
+
+Imagine the dataset being scattered along the x-y plane. Our aim is to pass a straight line h(θ) or our hypothesis which can correctly model the relationship between x and y plane.
+​
+
 
