@@ -42,7 +42,5 @@ Mathematically speaking our goal is to find a function that can predict the pric
 
 **Cost Function**
 
-Now to measure the accuracy of our hypothesis function we need a cost function. As our aim is to pass a straight line h(θ) or our hypothesis which can correctly model the relationship between x and y plane.
-​
-
+Now to measure the accuracy of our hypothesis function we need a cost function. We can use the average distance of each point from our hypothesis line as cost function. In this case our aim is to reduce this average distance so as to keep the straight line as close as possible to all the points. ​
 
