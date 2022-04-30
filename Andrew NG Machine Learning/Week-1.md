@@ -44,3 +44,12 @@ Mathematically speaking our goal is to find a function that can predict the pric
 
 Now to measure the accuracy of our hypothesis function we need a cost function. We can use the average distance of each point from our hypothesis line as cost function. In this case our aim is to reduce this average distance so as to keep the straight line as close as possible to all the points. ​
 
+
+We can find the distance by taking the difference between the predicted price of house and the known price of house. This can be represented mathematically as: 
+
+h<sub>θ</sub>​(x<sub>i​</sub>) − y<sub>i</sub>
+
+
+Where h<sub>θ</sub>​(x<sub>i​</sub>) is our hypothesis function. To average we can sum the distances of all the results of our hypothesis function for input x, and their actual output y.  
+
+Let's give our hypothesis function a proper definition. 
