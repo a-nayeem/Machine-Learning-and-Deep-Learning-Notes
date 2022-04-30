@@ -37,12 +37,12 @@ Let's take simple dataset of House price prediction to understand model represen
 
 As we will be using a lot of data to train the model, let x<sup>(i)</sup> be the input variable (living area of house i) and y<sup>(i)</sup> be the output variable (price of houes i) and (i = 1, 2, 3 ... number of house in dataset). We can represent one training example as a pair (x<sup>(i)</sup>, y<sup>(i)</sup>)
 
-Mathematically speaking our goal is to find a function that can predict the price of house given size of it's living area. In our simple dataset with only 2 variables we can use a straight line as our prediction model to get decent accuracy. Let's name the function we are going to find as "hypothesis function". This hypothesis function can be mathematically represented as h : x --> y so that h(x) predicts price of house with acceptable accuracy. 
+Mathematically speaking our goal is to find a function that can predict the price of house given size of it's living area. Our dataset is pretty simple as it has only 2 variables. So, we can use a linear prediction model or simply a straight line and hope to get a decent accuracy. Let's name the linear function we are going to use, to predict house prices as "hypothesis function". This hypothesis function can be mathematically represented as h : x --> y so that h(x) predicts price of house with acceptable accuracy. 
 
 
 **Cost Function**
 
-Now to measure the accuracy of our hypothesis function we need a cost function. We can use the average distance of each point from our hypothesis line as cost function. In this case our aim is to reduce this average distance so as to keep the straight line as close as possible to all the points. ​
+Now to measure the accuracy of our hypothesis function we need a cost function. Cost function determines if our hypothesis function is performing good or bad in terms of predicting the house price. If our hypothesis function performs bad we can try to optimize our function to perform better. Higher cost function means less accurate results, and lower cost function means results with higher accuracy. So our aim is to reduce the cost function. In our simple example cost of a single prediction is the difference between the predicted price and original price. However as our hypothesis function is a straight line, cost of the entire straight line can be found by taking the average cost for all known inputs. We can use the average distance of each point from our hypothesis line as cost function.  this average distance so as to keep the straight line as close as possible to all the points. ​
 
 
 We can find the distance by taking the difference between the predicted price of house and the known price of house. This can be represented mathematically as: 
