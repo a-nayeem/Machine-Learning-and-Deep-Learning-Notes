@@ -42,14 +42,14 @@ Mathematically speaking our goal is to find a function that can predict the pric
 
 **Cost Function**
 
-Now to measure the accuracy of our hypothesis function we need a cost function. Cost function determines if our hypothesis function is performing good or bad in terms of predicting the house price. If our hypothesis function performs bad we can try to optimize our function to perform better. Higher cost function means less accurate results, and lower cost function means results with higher accuracy. So our aim is to reduce the cost function. In our simple example cost of a single prediction is the difference between the predicted price and original price. However as our hypothesis function is a straight line, cost of the entire straight line can be found by taking the average cost for all known inputs. We can use the average distance of each point from our hypothesis line as cost function.  this average distance so as to keep the straight line as close as possible to all the points. ​
+Now to measure the accuracy of our hypothesis function we need a cost function. Cost function determines if our hypothesis function is performing good or bad in terms of predicting the house price. If our hypothesis function performs bad we can try to optimize our function to perform better. Higher cost function means less accurate results, and lower cost function means results with higher accuracy. So our aim is to reduce the cost function. In our simple example cost of a single prediction is the difference between the predicted price and original price. However as our hypothesis function is a straight line, cost of the entire straight line can be found by taking the average cost for all known inputs.  ​
 
 
-We can find the distance by taking the difference between the predicted price of house and the known price of house. This can be represented mathematically as: 
+Simple mathematical representation of Cost is as following:
 
-h<sub>θ</sub>​(x<sub>i​</sub>) − y<sub>i</sub>
+**h<sub>θ</sub>​(x<sub>i​</sub>) − y<sub>i</sub>**
 
 
-Where h<sub>θ</sub>​(x<sub>i​</sub>) is our hypothesis function. To average we can sum the distances of all the results of our hypothesis function for input x, and their actual output y.  
+Where h<sub>θ</sub>​(x<sub>i​</sub>) is our hypothesis function. To average we can sum the distances of all the results of our hypothesis function for input x, and their actual output y, and then divide the sum by the total number of data we have in dataset.
 
 Let's give our hypothesis function a proper definition. 
