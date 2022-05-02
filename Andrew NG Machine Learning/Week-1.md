@@ -53,3 +53,10 @@ Simple mathematical representation of Cost is as following:
 Where h<sub>θ</sub>​(x<sub>i​</sub>) is our hypothesis function. To average we can sum the distances of all the results of our hypothesis function for input x, and their actual output y, and then divide the sum by the total number of data we have in dataset.
 
 Let's give our hypothesis function a proper definition. 
+
+
+If we plot values of J(θ<sub>1</sub>) for different values of θ<sub>1</sub> we will see that the graph looks like the following image:
+
+
+
+If we observe the graph we will see that cost function is the lowest when θ<sub>1</sub> = 1, which is the global minima. 
