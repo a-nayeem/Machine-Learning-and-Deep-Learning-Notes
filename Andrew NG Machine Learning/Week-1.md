@@ -62,4 +62,12 @@ If we plot values of J(θ<sub>1</sub>) for different values of θ<sub>1</sub> we
 If we observe the graph we will see that cost function is the lowest when θ<sub>1</sub> = 1, which is the global minima. 
 
 
-For a function with 2 input variables like J(θ<sub>0</sub>, θ<sub>1</sub>) we can use contour graph to better understand where our global minima is. A contour graph is 
+For a function with 2 input variables like J(θ<sub>0</sub>, θ<sub>1</sub>) we can use contour graph to better understand where our global minima is. A contour graph is a way to plot a 3D graph in a 2D plane with constant sices of z axis.
+
+
+**Gradient Descent**
+Now that we have a way to measure performance of our hypothesis function, we need to find way how to optimize our function using the performance measure. 
+
+![alt text](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/bn9SyaDIEeav5QpTGIv-Pg_0d06dca3d225f3de8b5a4a7e92254153_Screenshot-2016-11-01-23.48.26.png?expiry=1651622400000&hmac=aErkEYhj2J0B0LjECQzc6stTXVxu16cBHoqFHmZ52ks)
+
+
