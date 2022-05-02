@@ -60,3 +60,6 @@ If we plot values of J(θ<sub>1</sub>) for different values of θ<sub>1</sub> we
 
 
 If we observe the graph we will see that cost function is the lowest when θ<sub>1</sub> = 1, which is the global minima. 
+
+
+For a function with 2 input variables like J(θ<sub>0</sub>, θ<sub>1</sub>) we can use contour graph to better understand where our global minima is. A contour graph is 
