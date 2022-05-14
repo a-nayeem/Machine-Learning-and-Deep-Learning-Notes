@@ -1,5 +1,6 @@
 
-## What is Machine Learning?
+<h1 align="center">Week 1</h1>
+<h2>What is Machine Learning</h2>
 
 Machine Learning can be defined in many ways. One simple and informal way to define ML is "the field of study that gives computers the ability to learn without being explicitly programmed."
 
